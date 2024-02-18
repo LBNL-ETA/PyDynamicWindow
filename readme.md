@@ -5,12 +5,12 @@ This module provides an open-source tool to optimize the intrinsic properties of
 2. dark-state solar transmittance ($\tau_{clear}$), and 
 3. transition temperature ($T_{tran}$).
 
-Three indicators are used to evaluate TC windows:
+Three indicators are used to evaluate TR windows:
 1. Energy saving ($\Delta E_{TR}$)
 2. Necessity level ($\Delta E_{n}$)
 3. TR recommendation index (TRRI)
 
-![Definitions of indicators for TC windows](images/Figure_definitions.png)
+![Definitions of indicators for TR windows](images/Figure_definitions.png)
 
 This tool can be used mainly in two scenarios:
 1. Optimize $T_{tran}$ by given $\tau_{dark}$ and $\tau_{clear}$, and evaluate energy performance (Example 01)
