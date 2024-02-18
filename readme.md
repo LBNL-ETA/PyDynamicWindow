@@ -1,14 +1,14 @@
 # PyDynamicWindow
 
-This module provides an open-source tool to optimize the intrinsic properties of thermochromic (TC) materials and evaluate their energy performance in building windows on a global scale. Regaring building energy saving, three key parameters of TC materials include:
+This module provides an open-source tool to optimize the intrinsic properties of thermo-responsive (TR) dynamic windows and evaluate their energy performance in building windows on a global scale. TR dynamic windows can be realized by incorporating a layer of thermochromic (TC) material into the window glazing or by integrating temperature sensors with electrochromic (EC) windows. Regaring building energy saving, three key parameters of TR windows include:
 1. dark-state solar transmittance ($\tau_{dark}$), 
 2. dark-state solar transmittance ($\tau_{clear}$), and 
 3. transition temperature ($T_{tran}$).
 
 Three indicators are used to evaluate TC windows:
-1. Energy saving ($\Delta E_{tc}$)
+1. Energy saving ($\Delta E_{TR}$)
 2. Necessity level ($\Delta E_{n}$)
-3. TC recommendation index (TCRI)
+3. TR recommendation index (TRRI)
 
 ![Definitions of indicators for TC windows](images/Figure_definitions.png)
 
