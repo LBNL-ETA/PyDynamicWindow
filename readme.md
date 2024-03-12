@@ -18,10 +18,14 @@ This tool can be used mainly in two scenarios:
 
 The artificial neural network models are trained by EnergyPlus simulation results using weather files of over two thousand global locations. The EnergyPlus model is adapted from Department of Energy's (DOE's) prototype building model for a medium-size office building. Technical details can be found in a coming publication.
 
-...
+More detailed information can be found in a publication coming soon. 
 
-Contact
+For other questions, please contact Dr. Yuan Gao - y.gao@lbl.gov
 
-Yuan Gao - y.gao@lbl.gov
+*** Copyright Notice ***
 
+PyDynamicWindow Copyright (c) 2024, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
 
+If you have questions about your rights to use or distribute this software, please contact Berkeley Lab's Intellectual Property Office at IPO@lbl.gov.
+
+NOTICE.  This Software was developed under funding from the U.S. Department of Energy and the U.S. Government consequently retains certain rights.  As such, the U.S. Government has been granted for itself and others acting on its behalf a paid-up, nonexclusive, irrevocable, worldwide license in the Software to reproduce, distribute copies to the public, prepare derivative works, and perform publicly and display publicly, and to permit others to do so.
