@@ -49,6 +49,9 @@ See a [tutorial video](https://drive.google.com/file/d/15SkSaynakWd4mJWn6N0924oi
 * Expected output: world map data of $\Delta E_{TR}$, $\Delta E_{n}$, TRRI, and optimial $T_{tran}$ in the format of npy, png, and tif.
 * Expected run time for demo on a "normal" desktop computer: 10 - 30 seconds
 
+## License
+See [license file](https://github.com/LBNL-ETA/PyDynamicWindow/blob/main/license.txt) for details
+
 *** Copyright Notice ***
 
 PyDynamicWindow Copyright (c) 2024, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
