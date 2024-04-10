@@ -20,6 +20,7 @@ import rasterio
 from rasterio.warp import reproject, Resampling
 import numpy as np
 from scipy.ndimage import zoom
+import warnings
 
 # Before you run this file:
 # download zip files for minimum temperature (°C),
@@ -57,6 +58,8 @@ A1, R1, crs1 = read_geotiff(f'{path}/{file_GHI}')
 Tavg_files = glob.glob(f'{path}/{folder_Tavg}/{file_tif}')
 Tmax_files = glob.glob(f'{path}/{folder_Tmax}/{file_tif}')
 Tmin_files = glob.glob(f'{path}/{folder_Tmin}/{file_tif}')
+
+warnings.simplefilter("ignore", category=RuntimeWarning)
 
 # Process Tavg
 Tavg_12m = np.zeros((1080*2160, 12))

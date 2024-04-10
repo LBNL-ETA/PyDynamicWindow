@@ -1,5 +1,6 @@
 # PyDynamicWindow
 
+## Introduction
 This module provides an open-source tool to optimize the intrinsic properties of thermo-responsive (TR) dynamic windows and evaluate their energy performance in building windows on a global scale. TR dynamic windows can be realized by incorporating a layer of thermochromic (TC) material into the window glazing or by integrating temperature sensors with electrochromic (EC) windows. Regaring building energy saving, three key parameters of TR windows include:
 1. dark-state solar transmittance ($\tau_{dark}$), 
 2. dark-state solar transmittance ($\tau_{clear}$), and 
@@ -18,9 +19,35 @@ This tool can be used mainly in two scenarios:
 
 The artificial neural network models are trained by EnergyPlus simulation results using weather files of over two thousand global locations. The EnergyPlus model is adapted from Department of Energy's (DOE's) prototype building model for a medium-size office building. Technical details can be found in a coming publication.
 
-More detailed information can be found in a publication coming soon. 
-
 For other questions, please contact Dr. Yuan Gao - y.gao@lbl.gov
+
+## System Requirements
+### Software Dependencies
+* Python 3.9 or higher
+* See [requirements.txt](https://github.com/LBNL-ETA/PyDynamicWindow/blob/main/requirements.txt)
+
+### Operating Systems
+* Windows 10 or higher
+* macOS Catalina 10.15 or higher
+
+### Tested Versions
+* Windows 10, Python 3.11
+* macOS Sonoma 14.3.1, Python 3.9
+
+### Required Non-Standard Hardware
+* No non-standard hardware required.
+
+## Installation and Demo
+See a [tutorial video](https://drive.google.com/file/d/15SkSaynakWd4mJWn6N0924oiRJLTbo21/view?usp=drive_link)
+* For Python beginners, PyCharm is used in this tutorial video.
+* First, download this python package. Go to "Code", "Download ZIP". Unzip it to your computer.
+* Second, go to [WorldClim website](https://www.worldclim.org/data/worldclim21.html) to download "tmin 10m", "tmax 10m", and "tavg 10m" zip files and unzip them to the "Map_tiff_npy_files" folder (see the tutorial video for details). Then, run [data_prep_resize_geotif_Tmp.py](https://github.com/LBNL-ETA/PyDynamicWindow/blob/main/data_prep_resize_geotif_Tmp.py) and generate three tif files in the "Map_tiff_npy_files" folder. This step is important. The PyDynamicWindow tool cannot be used without the generated world temperature tif files due to the lack of inputs. The reason we don't have the files ready here is because of license issues.
+* Third, In PyCharm, go to "Tools", "Sync Python Requirements" to install all the required packages. After this step, the PyDynamicWindow tool is ready to be used.
+* Go to the "Examples" folder. Run "Example_01_2inputs.py" or "Example_01_3inputs.py" by changing the properties of TR windows.
+
+* Typical install time on a "normal" desktop computer: 2 - 5 minutes
+* Expected output: world map data of $\Delta E_{TR}$, $\Delta E_{n}$, TRRI, and optimial $T_{tran}$ in the format of npy, png, and tif.
+* Expected run time for demo on a "normal" desktop computer: 10 - 30 seconds
 
 *** Copyright Notice ***
 
