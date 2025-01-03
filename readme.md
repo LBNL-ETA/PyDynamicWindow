@@ -17,7 +17,7 @@ This tool can be used mainly in two scenarios:
 1. Optimize $T_{tran}$ by given $\tau_{dark}$ and $\tau_{clear}$, and evaluate energy performance (Example 01)
 2. Evaluate energy performance by given $\tau_{dark}$, $\tau_{clear}$, and $T_{tran}$ (Example 02)
 
-The artificial neural network models are trained by EnergyPlus simulation results using weather files of over two thousand global locations. The EnergyPlus model is adapted from Department of Energy's (DOE's) prototype building model for a medium-size office building. Technical details can be found in a coming publication.
+The artificial neural network models are trained by EnergyPlus simulation results using weather files of over two thousand global locations. The EnergyPlus model is adapted from Department of Energy's (DOE's) prototype building model for a medium-size office building. Technical details can be found in [our publication](https://www.nature.com/articles/s41467-024-54967-8). Please cite this [publication](https://www.nature.com/articles/s41467-024-54967-8) if you use this tool in your article.
 
 For other questions, please contact Dr. Yuan Gao - y.gao@lbl.gov
 
